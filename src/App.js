@@ -1,10 +1,13 @@
 //hooks
-
+import Ball from "./ball/ball";
 import React, { useState } from "react";
 
 function App() {
-  const [name, setName] = useState("");
-  return <div className="container text-center"></div>;
+  return (
+    <div>
+      <Ball />
+    </div>
+  );
 }
 
 export default App;
