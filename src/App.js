@@ -2,13 +2,10 @@
 import Ball from "./ball/ball";
 import React, { useState } from "react";
 import Account from "./Account/Account";
+import NameList from "./NameList/NameList";
 
 function App() {
-  return (
-    <div>
-      <Account />
-    </div>
-  );
+  return <NameList />;
 }
 
 export default App;
